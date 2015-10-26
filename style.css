@@ -1,27 +1,35 @@
-.demo-layout-transparent {
-  background: url('images/image3.jpg') center / cover;
-  color: #fff;
+body{
+	background-color: #F3F5F5;
+	  font-family: 'Roboto';
+	  color: #384A6E;
+}
+.mdl-layout__header{
+	background: #424242;
+}
+.mdl-layout-title{
+	color: #384A6E;
 }
 
+.banner{
+	background: url('images/image3.jpg') center/cover;
+}
+#banner_text{
+	background: transparent;
+	color: #fff;
+}
 #banner_text p{
-	font-size: 40px;
-	padding-top: 200px;
 	font-weight: bold;
-}
-.mdl-cell--7-col-destop p{
-	font-size: 80px;
+	font-size: 40px;
 	line-height: 1.5em;
-	padding-left: 20px;
+	padding-top: 200px;
+	/*padding-left: 20px;*/
 }
-
-.demo-card-square{
-	margin-left: 100px;
-	width: 400px;
-	border-radius:10px;
-}
+	
 #application-form{
 	text-align: center;
 	padding:15px;
+	border-radius:10px;
+	width: 400px;
 }
 #application-form .mdl-textfield__input{
 	border-color:#ccc;
@@ -31,41 +39,50 @@
 }
 #application-form a{
 	text-decoration: none;
+	color: blue;
 }
 #application-form button{
  	border-radius: 5px;
 }
 
-#rental-calculator, {
-	background-color: #e4f1fe;
-	color: #fff;
+#rental-calculator {
+	color: #384A6E;
+	background-color: #d8d8d8;
+	width: 100%;
 }
+
 
 #about_us{
 	margin: 20px auto;
 	width: 1215px;
 }
-.mdl-card{
-	background: rgb(82, 91, 106);
+#about_us .mdl-card{
+	background:#F3F5F5 ;
 }
-#about_us .mdl-card__media{
- 	background-color: rgb(82, 91, 106);
+
+#about_us img{
+	width: 200px;
+}
+/*.mdl-card{
+	background: rgb(82, 91, 106);
+} */
+#about_us .mdl-card__media, .section--footer{
+ 	background-color: #F3F5F5;
+ 	color:#384A6E;
 }
 .mdl-card__media img{
 	width: 100%;
 }
-#about_text{
-	font-size: 15px;
-	line-height: 1.5em;
-} 
-
+.mdl-card__media{
+	background-color: transparent !important;
+}
 #why_spacebook h3{
 	text-align: center;
 }
 .section--footer{
 	border-radius: 15px;
+	width: 100%;
 }
  .mdl-mini-footer{
- 	background-color: fuschia;
  	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
  }

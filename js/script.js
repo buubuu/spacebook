@@ -1,6 +1,16 @@
 $(document).ready(function(){
 	
 	$('#redirectApply').hide();
+	
+
+	/*$(document).scroll(function () {
+		if ($(this).scrollTop() >= 56){
+			$('.mdl-layout__header--transparent').css("background", "#000").fadeIn();
+		} else{
+			$('.mdl-layout__header--transparent ').css("background", "transparent");
+		}
+	}) */
+
 
 	function amountforRent(){
 		rental_hours = $('#freehours').val();
